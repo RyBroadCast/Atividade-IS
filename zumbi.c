@@ -15,6 +15,7 @@ int main(){
 	}
 
 	else {
+	sleep(10);
 	printf("Pai, PID em %d",getpid());
 	printf("\nFilho, PID em %d",p);
 	}
